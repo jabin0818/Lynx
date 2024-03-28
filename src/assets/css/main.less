@@ -1,0 +1,41 @@
+// // 引入antd的less文件，然后最后只需在入口文件里面引入当前文件即可
+// // @import "~ant-design-vue/dist/antd.less";
+.directory-sizeSelect-popover {
+    background: #363636 !important;
+    padding: 0 !important;
+    border: none;
+
+    .list-option-select {
+        display: flex;
+        padding: 7px 0;
+        flex-direction: column;
+        border-radius: 5px;
+        cursor: default;
+
+        .level-item {
+            display: flex;
+            align-items: center;
+            height: 30px;
+            padding: 0 10px;
+            color: #fff;
+            position: relative;
+
+            &:hover {
+                background-color: #222;
+            }
+
+            .level-selected-icon {
+                font-size: 12px;
+            }
+
+            .level-ico-box {
+                margin: 0 4px 0 12px;
+                font-size: 13px;
+            }
+
+            .level-text {
+                font-size: 12px;
+            }
+        }
+    }
+}

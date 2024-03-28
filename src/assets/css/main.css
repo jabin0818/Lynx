@@ -1,0 +1,33 @@
+.directory-sizeSelect-popover {
+  background: #363636 !important;
+  padding: 0 !important;
+  border: none;
+}
+.directory-sizeSelect-popover .list-option-select {
+  display: flex;
+  padding: 7px 0;
+  flex-direction: column;
+  border-radius: 5px;
+  cursor: default;
+}
+.directory-sizeSelect-popover .list-option-select .level-item {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 10px;
+  color: #fff;
+  position: relative;
+}
+.directory-sizeSelect-popover .list-option-select .level-item:hover {
+  background-color: #222;
+}
+.directory-sizeSelect-popover .list-option-select .level-item .level-selected-icon {
+  font-size: 12px;
+}
+.directory-sizeSelect-popover .list-option-select .level-item .level-ico-box {
+  margin: 0 4px 0 12px;
+  font-size: 13px;
+}
+.directory-sizeSelect-popover .list-option-select .level-item .level-text {
+  font-size: 12px;
+}

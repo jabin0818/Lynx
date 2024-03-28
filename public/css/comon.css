@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+strong{
+	font-weight: 400;
+}
+
+body{
+	/* background:#eef0f4; */
+	/* height: 100%; */
+}
+
+html{
+	min-width: 300px;
+	height: 100%;
+	background-color: #f6f7f9;
+}
+
+
+
+

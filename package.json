@@ -1,0 +1,59 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@boyuai/vue-clamp": "^0.4.2",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^1.0.2",
+    "axios": "^1.1.3",
+    "core-js": "^3.8.3",
+    "crypto-js": "^4.1.1",
+    "element-ui": "^2.15.10",
+    "emoji-mart-vue-fast": "^12.0.1",
+    "emoji-regex": "^10.2.1",
+    "mavon-editor": "^2.10.4",
+    "vue": "^2.6.14",
+    "vue-dplayer": "^0.0.10",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.1.3",
+    "less-loader": "^7.3.0",
+    "style-resources-loader": "^1.5.0",
+    "vue-cli-plugin-style-resources-loader": "^0.1.5",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
